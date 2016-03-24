@@ -1,0 +1,115 @@
+/* 
+    Document   : style.css
+    Created on : 9 sept. 2013, 14:11:42
+    Author     : User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	width: 100%;
+	margin: auto;
+	height: 100%;
+}
+
+#enTete {
+	height: 78px;
+	background-color: #000066;
+	margin: auto;
+}
+.frameHeader {
+	width: 1024px;
+	margin: auto;
+}
+#foot {
+	position:fixed;
+        height: 30px;
+	background-color: #333333;
+}
+
+#conteneur{ 
+	margin:auto;
+	width: 1024px;
+}
+#connexion{
+        width: 200px;
+}
+h1 {
+	float: right;
+	font-family: Impact;
+	font-size: 60px;
+	color: #fffffc;
+}
+.slogan {
+	float: left;
+	font-family: Impact;
+	position: absolute;
+	font-size: 30px;
+	color: #fffffc;
+	margin-left: 380px;
+	margin-top: 30px;
+}
+fieldset {
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 200px;
+}
+ 
+legend {
+  padding: 0px 10px;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size:1em;
+  color:#666666;
+}
+ 
+label {
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  font-size:1em;
+  color:black;
+}
+ 
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+ 
+input:focus {
+  background: #eaeaea;
+}
+ 
+input, textarea {
+  width: 200px;
+}
+ 
+textarea {
+  height: 100px;
+}
+ 
+input[type=checkbox] {
+  width: 10px;
+}
+ 
+input[type=submit] {
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+form {
+	margin-top: 40px;
+}

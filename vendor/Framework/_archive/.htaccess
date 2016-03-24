@@ -1,0 +1,14 @@
+﻿#ErrorDocument 404 http://127.0.0.1/oriente_objet/14-projet_publication/views/404.tpl
+
+AddType application/x-httpd-php .tpl .inc
+
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	DirectoryIndex app.php
+#	RewriteRule ^app.php/([^/\.]+)/([^/\.]+)?$ app.php?controller=$1&action=$2 [QSA]
+#    RewriteRule ^app.php app.php?controller=home&action=index [QSA]
+
+#    RewriteRule \.(gif|jpg|png)$ app.php [F]
+#	RewriteRule ^produits/?$ index.php?controller=Front&action=produits [QSA]
+	#RewriteRule ^([a-z0-9]+)$ index.php?page=$1 [QSA]
+</IfModule>
