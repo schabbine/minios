@@ -15,6 +15,8 @@
             <ul class="nav navbar-nav">
                 <li><a href="<?php echo $path('wiki') ?>">Wiki</a></li>
                 <li><a href="<?php echo $path('articles') ?>">Articles</a></li>
+                <li><a href="<?php echo $path('test') ?>">Test</a></li>
+                <li><a href="<?php echo $path('contact') ?>">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">

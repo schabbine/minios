@@ -11,6 +11,16 @@ $routes = [
         'controller' => 'HomeController',
         'action'     => 'wikiAction',
     ],
+    'test'        => [
+        'url'        => '/test',
+        'controller' => 'HomeController',
+        'action'     => 'testAction',
+    ],
+    'contact'        => [
+        'url'        => '/contact',
+        'controller' => 'HomeController',
+        'action'     => 'contactAction',
+    ],
     'articles'         => [
         'url'        => '/articles',
         'controller' => 'HomeController',

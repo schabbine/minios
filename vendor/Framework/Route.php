@@ -9,7 +9,7 @@ class Route
 
     public function __construct($domaine = false)
     {
-        if (isset($_SERVER['PATH_INFO']) && $_SERVER['PATH_INFO']) {
+        if (!$domaine && isset($_SERVER['PATH_INFO']) && $_SERVER['PATH_INFO']) {
             $this->pathInfo = $_SERVER['PATH_INFO'];
         } else {
             if ($domaine) {
