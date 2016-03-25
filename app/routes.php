@@ -21,6 +21,11 @@ $routes = [
         'controller' => 'HomeController',
         'action'     => 'contactAction',
     ],
+      'verifMail'        => [
+        'url'        => '/verif-mail',
+        'controller' => 'HomeController',
+        'action'     => 'verifMailAction',
+    ],
     'articles'         => [
         'url'        => '/articles',
         'controller' => 'HomeController',
